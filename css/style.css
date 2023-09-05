@@ -24,6 +24,7 @@ body {
   position: relative;
   line-height: 1;
   overflow-wrap: break-word;
+  color: #292929;
 }
 
 .title-2 {
@@ -32,6 +33,7 @@ body {
   font-size: 2.7rem;
   margin: 2rem;
 }
+
 .subtitle {
   text-align: center;
   font-size: 3.5rem;
@@ -72,13 +74,14 @@ body {
 }
 
 .icons-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 800;
-  color: #000;
+  font-weight: 600;
+  color: #5c317e;
   margin-top: 1rem;
+  line-height: 1.2;
 }
 
 .icons-text {
@@ -109,7 +112,7 @@ body {
 }
 
 .boxcolor {
-  background-color: #00dbf1;
+  background-color: #fcfbfc;
 }
 
 .boxcolor2 {
@@ -132,8 +135,24 @@ body {
   flex-wrap: wrap;
   align-content: center;
 }
-.grid-buds4-mobile {
-  display: none;
+
+.grid-poco-x5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 40rem;
+  margin: 0 auto;
+  gap: 4rem;
+}
+
+.grid-img-pad {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 40rem;
+  margin: 0 auto;
+  gap: 1rem;
+  flex-direction: row;
 }
 /***************************************************************/
 
