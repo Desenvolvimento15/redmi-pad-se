@@ -104,7 +104,7 @@ body {
 }
 
 .txt-preto {
-  color: #000;
+  color: #292929;
 }
 
 .txt-branco {
@@ -126,14 +126,10 @@ body {
 /***************************grid*************************************/
 
 .grid-buds4-desk {
-  display: flex;
-  max-width: 62rem;
-  margin: 0 auto;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  gap: 2.7rem;
-  flex-wrap: wrap;
-  align-content: center;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  grid-template-rows: 50px 50px;
+  grid-auto-columns: 100px;
+  grid-auto-flow: column;
 }
 
 .grid-poco-x5 {
@@ -154,6 +150,7 @@ body {
   gap: 1rem;
   flex-direction: row;
 }
+
 /***************************************************************/
 
 @media (max-width: 920px) {
