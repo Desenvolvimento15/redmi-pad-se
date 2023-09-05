@@ -1,1 +1,1 @@
-# redmi-pad-se
+# redmi-note-12-pro-5G-MiBrasil
