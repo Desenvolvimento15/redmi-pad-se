@@ -84,6 +84,17 @@ body {
   line-height: 1.2;
 }
 
+.icons-title-01 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 500;
+  color: #5c317e;
+  margin-top: 1rem;
+  line-height: 1.2;
+}
+
 .icons-text {
   font-size: 1.3rem;
   text-align: center;
@@ -149,6 +160,7 @@ body {
   margin: 0 auto;
   gap: 4rem;
 }
+
 .grid-pad-se-text {
   display: flex;
   flex-wrap: nowrap;
@@ -161,10 +173,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-
-  margin: 0 auto;
-  gap: 1rem;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /**************************************************************************************/
