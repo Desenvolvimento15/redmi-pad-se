@@ -74,11 +74,11 @@ body {
 }
 
 .icons-title {
-  font-size: 1.8rem;
+  font-size: 3rem;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
   color: #5c317e;
   margin-top: 1rem;
   line-height: 1.2;
@@ -89,7 +89,7 @@ body {
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   margin-top: 1rem;
 }
@@ -111,6 +111,10 @@ body {
   color: #fff;
 }
 
+.txt-azul {
+  color: #00e9fe;
+}
+
 .boxcolor {
   background-color: #fcfbfc;
 }
@@ -125,14 +129,19 @@ body {
 
 /***************************grid*************************************/
 
-.grid-buds4-desk {
-  grid-template-columns: repeat(2, minmax(100px, 1fr));
-  grid-template-rows: 50px 50px;
-  grid-auto-columns: 100px;
-  grid-auto-flow: column;
+.grid-pad-se-desk {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: 100px 100px 100px;
 }
 
-.grid-poco-x5 {
+.grid-pad-se {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -140,7 +149,14 @@ body {
   margin: 0 auto;
   gap: 4rem;
 }
-
+.grid-pad-se-text {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 50rem;
+  margin: 0 auto;
+  gap: 9rem;
+}
 .grid-img-pad {
   display: flex;
   flex-wrap: nowrap;
