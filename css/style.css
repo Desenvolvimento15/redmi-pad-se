@@ -138,7 +138,7 @@ body {
   background-color: #05061a;
 }
 
-/*****************************************grid*************************************/
+/**************************************grid*************************************/
 
 .grid-pad-se-desk {
   padding-top: 1rem;
@@ -180,21 +180,48 @@ body {
 
 /************************************** Mobile ************************************************/
 
-@media (max-width: 920px) {
+@media only screen and (max-width: 920px) {
   .grid-pad-se-text {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    max-width: 50rem;
+    max-width: 10rem;
     margin: 0 auto;
-    gap: -2rem;
     flex-direction: column;
+    gap: 0rem;
+    margin-top: 1rem;
   }
 
+  .grid-pad-se-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 10rem;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 0rem;
+    margin-top: 1rem;
+  }
   .grid-img-pad {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .grid-pad-se {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 11rem;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
   }
 
   .grid-buds4-desk {
