@@ -169,24 +169,26 @@ body {
   margin: 0 auto;
   gap: 9rem;
 }
+
 .grid-img-pad {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 2rem;
 }
 
-/**************************************************************************************/
+/************************************** Mobile ************************************************/
 
 @media (max-width: 920px) {
-  .grid-buds4-mobile {
-    align-items: center;
+  .grid-pad-se-text {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 53.75rem;
-    width: 22.5rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 50rem;
     margin: 0 auto;
+    gap: -2rem;
+    flex-direction: column;
   }
 
   .grid-img-pad {
