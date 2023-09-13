@@ -138,6 +138,10 @@ body {
   background-color: #05061a;
 }
 
+p.txt-branco-preto {
+  color: #fff;
+}
+
 /********************************** Grid *************************************/
 
 .grid-pad-se-desk {
@@ -170,6 +174,17 @@ body {
   gap: 9rem;
 }
 
+.grid-img-text {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 29rem;
+  margin: 0 auto;
+  gap: 2rem;
+  position: relative;
+  top: -11rem;
+}
+
 .grid-img-pad {
   display: flex;
   flex-wrap: nowrap;
@@ -181,6 +196,19 @@ body {
 /************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
+  .grid-img-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 29rem;
+    margin: 0 auto;
+    gap: 2rem;
+    top: 2rem;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
   .grid-pad-se-text {
     display: flex;
     flex-wrap: nowrap;
@@ -232,6 +260,9 @@ body {
     width: 100%;
   }
 
+  p.txt-branco-preto {
+    color: #05061a;
+  }
   .title {
     text-align: center;
     font-size: 2rem;
