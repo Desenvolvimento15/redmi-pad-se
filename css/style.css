@@ -169,7 +169,7 @@ p.txt-branco-preto {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  max-width: 50rem;
+  max-width: 56rem;
   margin: 0 auto;
   gap: 9rem;
 }
@@ -178,9 +178,9 @@ p.txt-branco-preto {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  max-width: 41rem;
+  max-width: 58rem;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 15rem;
   position: relative;
   top: -11rem;
 }
