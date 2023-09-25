@@ -193,9 +193,25 @@ p.txt-branco-preto {
   gap: 2rem;
 }
 
+.img-grid-mob{
+  display: none;
+}
+.img-grid-desk{
+  display: block;
+}
+
 /************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
+
+  .img-grid-desk{
+    display: none;
+  }
+
+  .img-grid-mob{
+    display: block;
+  }
+
   .grid-img-text {
     display: flex;
     flex-wrap: nowrap;
