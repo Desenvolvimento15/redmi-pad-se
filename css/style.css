@@ -36,7 +36,7 @@ body {
 
 .subtitle {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -46,7 +46,7 @@ body {
 
 .sub-title {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -55,7 +55,7 @@ body {
 }
 
 .p-center {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 20px;
   font-family: "Camphor Pro", sans-serif;
@@ -198,11 +198,13 @@ p.txt-branco-preto {
 }
 .img-grid-desk{
   display: block;
+  padding: 8rem;
 }
 
 /************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
+  
 
   .img-grid-desk{
     display: none;
@@ -210,6 +212,7 @@ p.txt-branco-preto {
 
   .img-grid-mob{
     display: block;
+    padding: 1rem;
   }
 
   .grid-img-text {
@@ -225,7 +228,7 @@ p.txt-branco-preto {
   }
 
   .grid-pad-se-text {
-display: flex;
+    display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     max-width: 15rem;
@@ -264,9 +267,8 @@ display: flex;
     display: none;
   }
 
-  .img-fluid-mob {
-    width: 100%;
-  }
+/************************************************************************************/
+
 
   p.txt-branco-preto {
     color: #05061a;
@@ -350,6 +352,9 @@ display: flex;
     color: #7f7f7f;
   }
 
+/***********************************************************************/
+
+
   .div02 {
     align-items: center;
     display: flex;
@@ -370,4 +375,16 @@ display: flex;
     min-height: 8.333333rem;
     width: 20.395833rem;
   }
+   
+
+
+
+
+
+
+
+
+
+
+
 }
