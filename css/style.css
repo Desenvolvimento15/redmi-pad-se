@@ -217,15 +217,14 @@ p.txt-branco-preto {
 
   .grid-img-text {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
-    max-width: 30rem;
+    max-width: 20rem;
     margin: 0 auto;
-    flex-direction: row;
-    gap: 4rem;
-    margin-top: 1rem;
-    align-items: center;
-  }
+    flex-direction: column;
+    gap: 1rem;
+    top: 1.5rem;
+}
 
   .grid-pad-se-text {
     display: flex;
