@@ -201,9 +201,25 @@ p.txt-branco-preto {
   padding: 8rem;
 }
 
+.icon-white-desk{
+  display: block;
+}
+
+.icon-dark-mob{
+display: none;
+}
+
 /************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
+  .icon-white-desk{
+    display: none;
+  }
+  
+  .icon-dark-mob{
+    display: block;
+  }
+
   
 
   .img-grid-desk{
