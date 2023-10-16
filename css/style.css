@@ -179,9 +179,9 @@ p.txt-branco-preto {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  max-width: 58rem;
+  max-width: 76rem;
   margin: 0 auto;
-  gap: 15rem;
+  gap: 12rem;
   position: relative;
   top: -11rem;
 }
@@ -254,7 +254,6 @@ display: none;
     align-items: center;
   }
 
-
   .grid-img-pad {
     display: flex;
     flex-wrap: nowrap;
@@ -287,6 +286,7 @@ display: none;
   p.txt-branco-preto {
     color: #05061a;
   }
+
   .title {
     text-align: center;
     font-size: 2rem;
@@ -389,16 +389,5 @@ display: none;
     min-height: 8.333333rem;
     width: 20.395833rem;
   }
-   
-
-
-
-
-
-
-
-
-
-
 
 }
