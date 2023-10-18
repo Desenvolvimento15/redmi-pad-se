@@ -142,6 +142,11 @@ p.txt-branco-preto {
   color: #fff;
 }
 
+
+.spacing{
+  padding: 3rem;
+}
+
 /*************************************************** Grid *************************************/
 
 .grid-pad-se-desk {
@@ -285,9 +290,13 @@ display: none;
     display: none;
   }
 
+
 /************************************************************************************/
 
 
+.spacing{
+  padding: 1.5rem;
+}
   p.txt-branco-preto {
     color: #05061a;
   }
