@@ -213,6 +213,8 @@ display: none;
 /**************************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
+
+  
   .icon-white-desk{
     display: none;
   }
@@ -305,16 +307,17 @@ display: none;
 
   .subtitle {
     text-align: center;
-    font-size: 2rem;
-    font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 700;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
     margin-bottom: 0.5rem;
   }
 
+
   .sub-title {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 400;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -322,7 +325,7 @@ display: none;
   }
 
   .p-center {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     padding: 20px;
     font-family: "Camphor Pro", sans-serif;
