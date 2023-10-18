@@ -255,14 +255,14 @@ display: none;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    max-width: 15rem;
+    max-width: 22rem;
     margin: 0 auto;
     flex-direction: row;
     gap: 1rem;
     margin-top: 1rem;
     align-content: center;
     align-items: center;
-  }
+}
 
   .grid-img-pad {
     display: flex;
