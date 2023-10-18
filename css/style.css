@@ -258,7 +258,7 @@ display: none;
     max-width: 22rem;
     margin: 0 auto;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     margin-top: 1rem;
     align-content: center;
     align-items: center;
@@ -335,13 +335,13 @@ display: none;
   }
 
   .p-center {
-    font-size: 1rem;
+    font-size: 0.99rem;
     text-align: center;
     padding: 20px;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
     overflow-wrap: break-word;
-  }
+}
 
   .p-aviso {
     font-size: 0.8rem;
@@ -352,13 +352,13 @@ display: none;
   }
 
   .icons-title {
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     text-align: center;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
-    font-weight: 800;
+    font-weight: 700;
     margin-top: 1rem;
-  }
+}
 
   .icons-text {
     font-size: 1rem;
