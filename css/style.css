@@ -289,6 +289,7 @@ display: none;
     color: #05061a;
   }
 
+  
   .title {
     text-align: center;
     font-size: 2rem;
@@ -313,7 +314,6 @@ display: none;
     position: relative;
     margin-bottom: 0.5rem;
   }
-
 
   .sub-title {
     text-align: center;
